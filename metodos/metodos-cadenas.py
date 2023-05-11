@@ -38,5 +38,4 @@ cadena_nueva = cadena1.replace("Wilmer","Wilmer Andres");
 
 #separar cadenas con la cadena que le pasemos
 cadena_separada = cadena1.split(" ")
-
 print(cadena_separada)

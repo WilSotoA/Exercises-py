@@ -28,4 +28,7 @@ lista.sort()
 #invirtiendo los elementos de una lista
 lista.reverse()
 
-print(lista)
+#verificando si un elemento se encuentra en la lista
+elemento_encontrado = lista.index(False);
+
+print(elemento_encontrado)
