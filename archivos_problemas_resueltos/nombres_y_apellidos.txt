@@ -1,0 +1,16 @@
+los datos son: 
+Nombre: Wilmer
+Apellido: Perez
+--------------
+Nombre: Carlos
+Apellido: Correa
+--------------
+Nombre: Mario
+Apellido: Almeida
+--------------
+Nombre: Catalina
+Apellido: Zapata
+--------------
+Nombre: Roberto
+Apellido: Osorio
+--------------
