@@ -3,17 +3,28 @@ class Persona:
         self.__nombre = nombre
         self._edad = edad
 
-    def get_nombre(self):
+    @property
+    def nombre(self):
         return self.__nombre
-
-    def set_nombre(self, new_nombre):
+    
+    @nombre.setter
+    def nombre(self, new_nombre):
         self.__nombre = new_nombre
+        
+    @nombre.deleter
+    def nombre(self):
+        del self.__nombre
 
 
 wilmer = Persona("Wilmer", 19)
 
-print(wilmer.get_nombre())
+print(wilmer.nombre)
 
-wilmer.set_nombre("Andres")
+wilmer.nombre = "Andres"
 
-print(wilmer.get_nombre())
+print(wilmer.nombre)
+
+#eliminar propiedad encapsulada
+# del wilmer.nombre
+
+# print(wilmer.nombre)
